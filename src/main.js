@@ -10,6 +10,7 @@ import DataTable from './components/Crawler/CustomComponents/DataTable'
 import ImageDialog from './components/Crawler/CustomComponents/ImageDialog'
 import DateFilter from './filters/date'
 import EditCrawlerInfoDialog from './components/Crawler/CustomComponents/EditCrawlerInfoDialog'
+import RegisterDialog from './components/Crawler/CustomComponents/RegisterDialog'
 
 Vue.use(Vuetify, { theme: {
   primary: '#afb7bf',
@@ -26,6 +27,7 @@ Vue.component('app-alert', AlertCmp)
 Vue.component('data-table', DataTable)
 Vue.component('image-dialog', ImageDialog)
 Vue.component('edit-crawler-info-dialog', EditCrawlerInfoDialog)
+Vue.component('register-dialog', RegisterDialog)
 Vue.filter('date-filter', DateFilter)
 /* eslint-disable no-new */
 new Vue({

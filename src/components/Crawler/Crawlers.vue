@@ -46,6 +46,7 @@
           <v-divider light></v-divider>
           <v-card-actions>
             <v-spacer></v-spacer>
+            <register-dialog :crawlerId="crawler.id"></register-dialog>
             <v-btn class="success" flat :to="/crawlers/ + crawler.id">
               <v-icon left>arrow_forward</v-icon>
               View crawler
